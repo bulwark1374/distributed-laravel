@@ -3,8 +3,8 @@
 namespace Bulwark\Api\System;
 
 use Illuminate\Translation\TranslationServiceProvider as BaseTranslationServiceProvider;
-use Optimus\Api\System\Translation\DistributedFileLoader;
-use Optimus\Api\System\Utilties;
+use Bulwark\Api\System\Translation\DistributedFileLoader;
+use Bulwark\Api\System\Utilties;
 
 class TranslationServiceProvider extends BaseTranslationServiceProvider
 {
