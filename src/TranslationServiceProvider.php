@@ -4,7 +4,7 @@ namespace Bulwark\Api\System;
 
 use Illuminate\Translation\TranslationServiceProvider as BaseTranslationServiceProvider;
 use Bulwark\Api\System\Translation\DistributedFileLoader;
-use Bulwark\Api\System\Utilties;
+use Bulwark\Api\System\Utilities;
 
 class TranslationServiceProvider extends BaseTranslationServiceProvider
 {
