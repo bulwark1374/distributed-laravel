@@ -1,6 +1,6 @@
 <?php
 
-namespace Optimus\Api\System;
+namespace Bulwark\Api\System;
 
 use Illuminate\Translation\TranslationServiceProvider as BaseTranslationServiceProvider;
 use Optimus\Api\System\Translation\DistributedFileLoader;

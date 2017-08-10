@@ -1,6 +1,6 @@
 <?php
 
-namespace Optimus\Api\System;
+namespace Bulwark\Api\System;
 
 class Utilities
 {

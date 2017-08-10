@@ -1,12 +1,17 @@
 <?php
 
-namespace Optimus\Api\System;
+namespace Bulwark\Api\System;
 
 use Illuminate\Routing\Router;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
 
 class RouteServiceProvider extends ServiceProvider
 {
+    /**
+     * API prefix format
+     */
+    protected $prefix = '';
+
     /**
      * Bootstrap any application services.
      *
@@ -93,6 +98,7 @@ class RouteServiceProvider extends ServiceProvider
                     $router->group([
                         'middleware' => $protected ? $middleware : [],
                         'namespace'  => $namespace,
+                        'prefix' => $this->prefix
                     ], function ($router) use ($path) {
                         require $path;
                     });

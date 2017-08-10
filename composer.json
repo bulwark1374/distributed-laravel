@@ -2,7 +2,7 @@
     "name": "bulwark/multilayer-laravel",
     "autoload": {
         "psr-4": {
-            "Optimus\\Api\\System\\": "src/"
+            "Bulwark\\Api\\System\\": "src/"
         }
     },
     "require": {
