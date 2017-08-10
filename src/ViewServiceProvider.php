@@ -4,7 +4,7 @@ namespace Bulwark\Api\System;
 
 use Illuminate\Contracts\Events\Dispatcher as DispatcherContract;
 use Illuminate\View\ViewServiceProvider as BaseViewServiceProvider;
-use Optimus\Api\System\Utilities;
+use Bulwark\Api\System\Utilities;
 
 class ViewServiceProvider extends BaseViewServiceProvider
 {
